@@ -3,8 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="language version" src="https://img.shields.io/badge/React%20Native-v_0.62.1-339933?logo=react">
-  <img alt="language version" src="https://img.shields.io/badge/Yarn-v_1.22.4-2C8EBB?logo=Yarn">
+  <img alt="language version" src="https://img.shields.io/badge/Flutter-v_1.12.13-339933?logo=flutter">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brendamatias/food_delivery">
 </p>
 
