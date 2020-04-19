@@ -9,12 +9,17 @@ class ItemList extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            color: Colors.red,
             width: 380,
             height: 170,
-            child: Image.asset(
-              ConstsApp.burgerImage,
-              fit: BoxFit.fill,
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: const Radius.circular(10),
+                bottomLeft: const Radius.circular(10),
+              ),
+              child: Image.asset(
+                ConstsApp.burgerImage,
+                fit: BoxFit.fill,
+              ),
             ),
           ),
           Padding(

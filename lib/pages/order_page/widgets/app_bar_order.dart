@@ -1,7 +1,7 @@
 import 'package:delivery_app/pages/order_page/order_page.dart';
 import 'package:flutter/material.dart';
 
-class AppBarHome extends StatelessWidget {
+class AppBarOrder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double statusWidth = MediaQuery.of(context).padding.top;
@@ -14,12 +14,21 @@ class AppBarHome extends StatelessWidget {
           ),
           Container(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.all(20),
                   child: IconButton(
-                    icon: Icon(Icons.short_text),
+                    icon: Icon(Icons.arrow_back_ios),
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: IconButton(
+                    icon: Icon(Icons.delete_outline),
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => OrderPage()));
@@ -34,13 +43,13 @@ class AppBarHome extends StatelessWidget {
           ),
           Container(
             child: Padding(
-              padding: const EdgeInsets.only(left: 80),
+              padding: const EdgeInsets.only(left: 40),
               child: Column(
                 children: <Widget>[
                   Row(
                     children: <Widget>[
                       Text(
-                        'Food',
+                        'My',
                         style: TextStyle(
                           fontSize: 44,
                           fontWeight: FontWeight.bold,
@@ -51,7 +60,7 @@ class AppBarHome extends StatelessWidget {
                   Row(
                     children: <Widget>[
                       Text(
-                        'Delivery',
+                        'Order',
                         style: TextStyle(fontSize: 44),
                       ),
                     ],
@@ -61,22 +70,7 @@ class AppBarHome extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 30,
-          ),
-          Padding(
-            padding: const EdgeInsets.only(left: 40, right: 30, bottom: 50),
-            child: Container(
-              child: TextField(
-                decoration: InputDecoration(
-                  icon: Icon(Icons.search),
-                  hintText: 'Search...',
-                  hintStyle: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                  ),
-                ),
-              ),
-            ),
+            height: 50,
           ),
         ],
       ),
