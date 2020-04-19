@@ -1,16 +1,45 @@
-# delivery_app
+<h1 align="center">
+    Food Delivery
+</h1>
 
-A new Flutter project.
+<p align="center">
+  <img alt="language version" src="https://img.shields.io/badge/React%20Native-v_0.62.1-339933?logo=react">
+  <img alt="language version" src="https://img.shields.io/badge/Yarn-v_1.22.4-2C8EBB?logo=Yarn">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brendamatias/food_delivery">
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-iniciando-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img alt="Frontend" src=".github/food-delivery.png" width="100%">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## :rocket: Tecnologias
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Flutter](https://flutter.dev/)
+
+## 💻 Projeto
+
+Projeto desenvolvido com base no design de [Cuberto](https://dribbble.com/shots/5647953-Food-Delivery-App/attachments).
+
+## :zap: Iniciando aplicação
+
+- Clone este repositório usando `git clone git@github.com:brendamatias/food-delivery.git`;
+- Mova-se para diretório da aplicação: `cd food-delivery`;
+- Inicie a aplicação com `flutter run`;
+
+---
+
+<p align="center">
+  <a alt="Brenda" href="https://www.linkedin.com/in/brenda-matias/">
+    <img src="https://img.shields.io/badge/LinkedIn-Brenda_Matias-0077B5?logo=linkedin"/>
+  </a>
+</p>
