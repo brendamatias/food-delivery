@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/food-delivery.png" width="100%">
+  <img alt="Frontend" src=".github/food-delivery.png" width="60%">
 </p>
 
 ## :rocket: Tecnologias
@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto desenvolvido com base no design de [Cuberto](https://dribbble.com/shots/5647953-Food-Delivery-App/attachments).
+Este projeto foi inspirado pelo trabalho de [Cuberto no Dribbble](https://dribbble.com/shots/5647953-Food-Delivery-App/attachments).
 
 ## :zap: Iniciando aplicação
 
