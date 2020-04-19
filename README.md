@@ -1,16 +1,16 @@
 <h1 align="center">
-    Food Delivery
+    Food Delivery :hamburger:
 </h1>
 
 <p align="center">
   <img alt="language version" src="https://img.shields.io/badge/Flutter-v_1.12.13-339933?logo=flutter">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brendamatias/food_delivery">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brendamatias/food-delivery">
 </p>
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-iniciando-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-iniciando-aplicação">Iniciando aplicação</a>
 </p>
 
 <br>
